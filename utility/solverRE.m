@@ -3,8 +3,8 @@ function [psi_ad, psi_m, iter] = solverRE(psi_ad, psi_n, psiEq, ...
 % Newton solver for the Richards' equation
 %
 % SYNOPSIS:
-%   function [psi_ad, psi_m, iter] = newtonSolverRE(psi_ad, psi_n, psiEq, ...
-%       tau, source, currentTime)
+%   function [psi_ad, psi_m, iter] = solverRE(psi_ad, psi_n, psiEq, ...
+%       tau, source, currentTime, tol, maxIter)
 %
 % PARAMETERS:
 %   psi_ad       - AD-object, pressure head AD-variable.
